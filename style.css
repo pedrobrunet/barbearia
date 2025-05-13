@@ -1,12 +1,13 @@
-body{
+body {
     background-color: black;
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
-header{
-    background-color: #333;
+header {
+    background-color: transparent;
     color: white;
     padding: 15 32px;
     display: flex;
@@ -17,10 +18,11 @@ header{
     top: 0;
     z-index: 1000;
     list-style: none;
-    
+    font-size: 18px;
+
 }
 
-.logo{
+.logo {
     font-size: 24px;
     font-weight: bold;
 }
@@ -33,6 +35,7 @@ nav ul {
     display: flex;
     gap: 30px;
     font-size: larger;
+
 }
 
 nav ul li a {
@@ -40,7 +43,20 @@ nav ul li a {
     text-decoration: none;
     transition: color 0.3s;
 }
+
 nav ul li a:hover {
     color: #ffd700;
 }
 
+.main {
+    background-image: url("imagens/imagemfundo.jpg") ;	
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
