@@ -198,3 +198,54 @@ nav ul li a.btn {
 .instagram-float:hover {
     transform: scale(1.1);
 }
+.footer {
+  background-color: #0d0d0d;
+  color: white;
+  padding: 30px 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+/* Estilização do rodápe da barbearia*/
+.rodape {
+  background-color: #111;
+  color: white;
+  padding: 30px 20px;
+  font-family: sans-serif;
+  
+}
+
+.container-rodape {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.info-contato p,
+.horarios p {
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.icones-sociais a {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icones-sociais a:hover {
+  color: #aaa;
+}
+
+i {
+  margin-right: 8px;
+}
