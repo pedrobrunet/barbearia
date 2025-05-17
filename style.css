@@ -152,6 +152,50 @@ nav ul li a.btn {
     color: #000000;
 }
 
+/*segunda página*/
+.titulo_second{
+    font-size: 32px;
+    padding-top: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    gap:20px;
+    background-color: #FFEBCD;
+    padding: 40px 22px;
+}
+
+.container-servicos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 220px;
+}
+.servico-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+}
+.icone-servico{
+    width: 65px;
+    height: 65px;
+    margin-bottom: 5px;
+}
+
+.servico-nome{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0;
+}
+
 .whatsapp-float {
     position: fixed;
     bottom: 20px;
@@ -197,4 +241,56 @@ nav ul li a.btn {
 
 .instagram-float:hover {
     transform: scale(1.1);
+}
+
+.footer {
+  background-color: #0d0d0d;
+  color: white;
+  padding: 30px 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+/* Estilização do rodápe da barbearia*/
+.rodape {
+  background-color: #111;
+  color: white;
+  padding: 15px 20px;
+  font-family: sans-serif;
+  
+}
+
+.container-rodape {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 10px;
+}
+
+.info-contato p,
+.horarios p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.icones-sociais a {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.icones-sociais a:hover {
+  color: #aaa;
+}
+
+i {
+  margin-right: 8px;
 }
