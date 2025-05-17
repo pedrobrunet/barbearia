@@ -166,7 +166,7 @@ nav ul li a.btn {
     flex-direction: column;    
     justify-content: center;
     gap:20px;
-    background-color: #c2be8c;
+    background-color: #FFEBCD;
     padding: 40px 22px;
 }
 
@@ -185,8 +185,8 @@ nav ul li a.btn {
     width: 140px;
 }
 .icone-servico{
-    width: 90px;
-    height: 90px;
+    width: 65px;
+    height: 65px;
     margin-bottom: 5px;
 }
 
