@@ -154,36 +154,46 @@ nav ul li a.btn {
 
 /*segunda página*/
 .titulo_second{
-    font-size: 28px;
-    padding-top: 30px;
+    font-size: 32px;
+    padding-top: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .second{
     display: flex;
+    flex-direction: column;    
     justify-content: center;
-    gap:40px;
-    flex-wrap: wrap;
+    gap:20px;
     background-color: #c2be8c;
-    padding: 60px 22px;
+    padding: 40px 22px;
 }
 
 .container-servicos{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 220px;
 }
-.container-servicos img{
-    width: 70px;
-    height: 70px;
-    margin-bottom: 10px;
+.servico-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
 }
-.container-servicos span{
+.icone-servico{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 5px;
+}
+
+.servico-nome{
     font-size: 16px;
     text-align: center;
+    margin-top: 0;
 }
 
 .whatsapp-float {
@@ -249,7 +259,7 @@ nav ul li a.btn {
 .rodape {
   background-color: #111;
   color: white;
-  padding: 30px 20px;
+  padding: 15px 20px;
   font-family: sans-serif;
   
 }
@@ -260,13 +270,13 @@ nav ul li a.btn {
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  margin: auto;
+  margin: 10px;
 }
 
 .info-contato p,
 .horarios p {
-  margin: 8px 0;
-  font-size: 20px;
+  margin: 6px 0;
+  font-size: 14px;
 }
 
 .icones-sociais a {
