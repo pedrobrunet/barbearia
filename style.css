@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -99,6 +99,7 @@ nav ul li a:hover {
 .hero-content h1 {
     font-size: 3.5rem;
     margin-bottom: 30px;
+    margin-left: 2rem;
     font-weight: bold;
     line-height: 0.5;
 }
@@ -135,6 +136,7 @@ nav ul li a:hover {
     border-radius: 30px;
     width: 50%;
     text-align: center;
+    margin-left: 2rem;
 
 }
 
