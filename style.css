@@ -153,48 +153,116 @@ nav ul li a.btn {
 }
 
 /*segunda página*/
-.titulo_second{
-    font-size: 32px;
-    padding-top: 15px;
+.titulo_second {
+    font-size: 3rem;
+    padding-top: 60px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-align: center;
+    color: #fbfbfb;
+    font-weight: bold;
+    position: relative;
 }
 
-.second{
-    display: flex;
-    flex-direction: column;    
-    justify-content: center;
-    gap:20px;
-    background-color: #FFEBCD;
-    padding: 40px 22px;
+.titulo_second::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(45deg, #ffd700, #000000);
+    border-radius: 2px;
 }
 
-.container-servicos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 220px;
+.second {
+    background-color: #000000;
+    padding: 80px 40px;
+    min-height: 60vh;
 }
-.servico-item{
+
+.container-servicos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.servico-card {
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.servico-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-color: #ffd700;
+}
+
+.icone-container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 25px;
+    background: linear-gradient(135deg, #ffd700, #ff8c00);
+    border-radius: 50%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 140px;
-}
-.icone-servico{
-    width: 65px;
-    height: 65px;
-    margin-bottom: 5px;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(255, 215, 0, 0.3);
 }
 
-.servico-nome{
-    font-size: 16px;
-    text-align: center;
-    margin-top: 0;
+.servico-card:hover .icone-container {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
 }
+
+.icones-card {
+    width: 50px;
+    height: 50px;
+}
+
+.servico-nome {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fcfcfc;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.servico-nome:hover {
+    color: #ffd700;
+}
+
+.servico-descricao {
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.servico-preco {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #f9f9f9;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: rgba(255, 215, 0, 0.1);
+    border-radius: 25px;
+    display: inline-block;
+}
+
 
 .whatsapp-float {
     position: fixed;
@@ -244,53 +312,54 @@ nav ul li a.btn {
 }
 
 .footer {
-  background-color: #0d0d0d;
-  color: white;
-  padding: 30px 20px;
+    background-color: #0d0d0d;
+    color: white;
+    padding: 30px 20px;
 }
 
 .footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
 /* Estilização do rodápe da barbearia*/
 .rodape {
-  background-color: #111;
-  color: white;
-  padding: 15px 20px;
-  font-family: sans-serif;
-  
+    background-color: #111;
+    color: white;
+    padding: 15px 20px;
+    font-family: sans-serif;
+
 }
 
 .container-rodape {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 10px;
 }
 
 .info-contato p,
 .horarios p {
-  margin: 6px 0;
-  font-size: 14px;
+    margin: 6px 0;
+    font-size: 14px;
 }
 
 .icones-sociais a {
-  color: white;
-  font-size: 20px;
-  margin-left: 15px;
-  text-decoration: none;
-  transition: 0.3s;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 .icones-sociais a:hover {
-  color: #aaa;
+    color: #aaa;
 }
 
 i {
-  margin-right: 8px;
+    margin-right: 8px;
 }
