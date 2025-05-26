@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -312,7 +312,7 @@ nav ul li a.btn {
 }
 
 .footer {
-    background-color: #0d0d0d;
+    background: linear-gradient(135deg, #111 0%, #1a1a1a 100%);
     color: white;
     padding: 30px 20px;
 }
