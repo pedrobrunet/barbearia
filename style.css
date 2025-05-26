@@ -363,3 +363,50 @@ nav ul li a.btn {
 i {
     margin-right: 8px;
 }
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    padding: 80px 40px;
+    gap: 50px;
+}
+
+.sobre-texto {
+    max-width: 600px;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.sobre-texto h2 {
+    font-size: 3rem;
+    color: #ffd700;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.sobre-texto h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(45deg, #ffd700, #000000);
+    border-radius: 2px;
+}
+
+.sobre-texto p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #e0e0e0;
+}
+
+.sobre img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.2);
+    object-fit: cover;
+}
