@@ -326,7 +326,7 @@ nav ul li a.btn {
 
 /* Estilização do rodápe da barbearia*/
 .rodape {
-    background-color: #111;
+    background-color: #242424;
     color: white;
     padding: 15px 20px;
     font-family: sans-serif;
@@ -368,7 +368,7 @@ i {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: #000000;
+    background-color: #121212;
     padding: 80px 40px;
     gap: 50px;
 }
