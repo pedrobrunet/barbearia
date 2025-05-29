@@ -265,8 +265,7 @@ nav ul li a.btn {
 
 .instagram-float {
     position: fixed;
-    bottom: 90px;
-    /* acima do WhatsApp */
+    bottom: 30px;
     right: 20px;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     color: white;
